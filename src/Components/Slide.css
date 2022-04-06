@@ -1,0 +1,19 @@
+.items{
+    min-height: 5rem;
+ min-width: 11rem;
+}
+.items img {
+    width: 80%;
+    height: 80%;
+    border-radius: 2rem;
+    margin:  10px 40px 0px 10px ;
+}
+.inner-carousel {
+    display: flex;
+    justify-content: center;
+    margin:  15vh 0px 0px 0px ;
+}
+.carousel{
+    cursor: grab;
+    overflow: hidden;
+}
