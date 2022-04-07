@@ -8,7 +8,7 @@ function Header({toggle}) {
   return (
     <Container>
       <a href='/'>
-        <img src='/Images/logo2.svg'/>
+        <img src={process.env.PUBLIC_URL + '/Images/logo2.svg'}/>
       </a>
         <Navbar>
         <Menu to="/contact" >Contact</Menu>
