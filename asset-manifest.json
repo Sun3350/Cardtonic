@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/http//Sun335.github.io/Cardtonic/static/css/main.2398918c.css",
+    "main.js": "/http//Sun335.github.io/Cardtonic/static/js/main.63393327.js",
+    "static/js/787.9b68a05c.chunk.js": "/http//Sun335.github.io/Cardtonic/static/js/787.9b68a05c.chunk.js",
+    "static/media/foot.svg": "/http//Sun335.github.io/Cardtonic/static/media/foot.69f7b4945858d79bc967a21a38d03940.svg",
+    "static/media/nord.svg": "/http//Sun335.github.io/Cardtonic/static/media/nord.cf271cc94b617e076494481256a7f696.svg",
+    "static/media/sephora.svg": "/http//Sun335.github.io/Cardtonic/static/media/sephora.fd358fab5e249b017cd096ff6fea67d7.svg",
+    "static/media/netflix.svg": "/http//Sun335.github.io/Cardtonic/static/media/netflix.4d1978e32b31a0ac8121abe227edc63f.svg",
+    "static/media/nike.svg": "/http//Sun335.github.io/Cardtonic/static/media/nike.4038b69835fbc7afac09ce001ea02bab.svg",
+    "static/media/amazon.svg": "/http//Sun335.github.io/Cardtonic/static/media/amazon.0c425f6c30fcb99813d0193109873f39.svg",
+    "static/media/apple.svg": "/http//Sun335.github.io/Cardtonic/static/media/apple.dee8c64a20165b5bd347dc85ee1bb10d.svg",
+    "index.html": "/http//Sun335.github.io/Cardtonic/index.html",
+    "main.2398918c.css.map": "/http//Sun335.github.io/Cardtonic/static/css/main.2398918c.css.map",
+    "main.63393327.js.map": "/http//Sun335.github.io/Cardtonic/static/js/main.63393327.js.map",
+    "787.9b68a05c.chunk.js.map": "/http//Sun335.github.io/Cardtonic/static/js/787.9b68a05c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2398918c.css",
+    "static/js/main.63393327.js"
+  ]
+}
