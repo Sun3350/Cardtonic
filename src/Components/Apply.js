@@ -135,7 +135,7 @@ function Apply() {
                       </L>
                    </Part>
                    <Part2>
-                <img  src={process.env.PUBLIC_URL + "/Images/p.svg"}/>
+                <img  src={process.env.BUILD_URL + "/Images/p.svg"}/>
                    </Part2>
               </Partners>
           </Wrap1>
