@@ -305,7 +305,7 @@ height:auto;
 `
 const Partner = styled.div`
 width:59%;
-@media(maX-width:7680px){
+@media(maX-width:768px){
 width:95%;
 }
 `
