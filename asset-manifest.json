@@ -1,22 +1,34 @@
 {
   "files": {
-    "main.css": "/http//Sun335.github.io/Cardtonic/static/css/main.2398918c.css",
-    "main.js": "/http//Sun335.github.io/Cardtonic/static/js/main.63393327.js",
-    "static/js/787.9b68a05c.chunk.js": "/http//Sun335.github.io/Cardtonic/static/js/787.9b68a05c.chunk.js",
-    "static/media/foot.svg": "/http//Sun335.github.io/Cardtonic/static/media/foot.69f7b4945858d79bc967a21a38d03940.svg",
-    "static/media/nord.svg": "/http//Sun335.github.io/Cardtonic/static/media/nord.cf271cc94b617e076494481256a7f696.svg",
-    "static/media/sephora.svg": "/http//Sun335.github.io/Cardtonic/static/media/sephora.fd358fab5e249b017cd096ff6fea67d7.svg",
-    "static/media/netflix.svg": "/http//Sun335.github.io/Cardtonic/static/media/netflix.4d1978e32b31a0ac8121abe227edc63f.svg",
-    "static/media/nike.svg": "/http//Sun335.github.io/Cardtonic/static/media/nike.4038b69835fbc7afac09ce001ea02bab.svg",
-    "static/media/amazon.svg": "/http//Sun335.github.io/Cardtonic/static/media/amazon.0c425f6c30fcb99813d0193109873f39.svg",
-    "static/media/apple.svg": "/http//Sun335.github.io/Cardtonic/static/media/apple.dee8c64a20165b5bd347dc85ee1bb10d.svg",
-    "index.html": "/http//Sun335.github.io/Cardtonic/index.html",
-    "main.2398918c.css.map": "/http//Sun335.github.io/Cardtonic/static/css/main.2398918c.css.map",
-    "main.63393327.js.map": "/http//Sun335.github.io/Cardtonic/static/js/main.63393327.js.map",
-    "787.9b68a05c.chunk.js.map": "/http//Sun335.github.io/Cardtonic/static/js/787.9b68a05c.chunk.js.map"
+    "main.css": "/Cardtonic/static/css/main.d914cb5f.css",
+    "main.js": "/Cardtonic/static/js/main.f4d1d85f.js",
+    "static/js/787.9b68a05c.chunk.js": "/Cardtonic/static/js/787.9b68a05c.chunk.js",
+    "static/media/y.png": "/Cardtonic/static/media/y.aeb00ad99070531731cc.png",
+    "static/media/image-2.png": "/Cardtonic/static/media/image-2.ac75252f8da691061f8b.png",
+    "static/media/p.png": "/Cardtonic/static/media/p.043f8f97a4fd8400a0d4.png",
+    "static/media/foot.svg": "/Cardtonic/static/media/foot.69f7b4945858d79bc967a21a38d03940.svg",
+    "static/media/p.svg": "/Cardtonic/static/media/p.0678d63bc56d9ec54c884a78e6c2fd1b.svg",
+    "static/media/azcentral..svg": "/Cardtonic/static/media/azcentral..e5d723b7cb5e7e5e9d24a309c45079e2.svg",
+    "static/media/nord.svg": "/Cardtonic/static/media/nord.cf271cc94b617e076494481256a7f696.svg",
+    "static/media/techpoint..svg": "/Cardtonic/static/media/techpoint..dda588530a390f12b00a35ff5789f46c.svg",
+    "static/media/vanguard..svg": "/Cardtonic/static/media/vanguard..2016edb7b8c8ebe5c100e942a70d0112.svg",
+    "static/media/punch..svg": "/Cardtonic/static/media/punch..e221a32190e30531223652cfc59df03d.svg",
+    "static/media/sephora.svg": "/Cardtonic/static/media/sephora.fd358fab5e249b017cd096ff6fea67d7.svg",
+    "static/media/digital..svg": "/Cardtonic/static/media/digital..b11bc3b0cb9963a6f37a0caa6ece1b8c.svg",
+    "static/media/logo.svg": "/Cardtonic/static/media/logo.fc8c8f85a4d26dd33d256123e1c9a08f.svg",
+    "static/media/logo2.svg": "/Cardtonic/static/media/logo2.5b42ae4a86cc15eea691939d41a2125e.svg",
+    "static/media/match..svg": "/Cardtonic/static/media/match..d493e1907b3522f6fe325fba511c275b.svg",
+    "static/media/netflix.svg": "/Cardtonic/static/media/netflix.4d1978e32b31a0ac8121abe227edc63f.svg",
+    "static/media/nike.svg": "/Cardtonic/static/media/nike.4038b69835fbc7afac09ce001ea02bab.svg",
+    "static/media/amazon.svg": "/Cardtonic/static/media/amazon.0c425f6c30fcb99813d0193109873f39.svg",
+    "static/media/apple.svg": "/Cardtonic/static/media/apple.dee8c64a20165b5bd347dc85ee1bb10d.svg",
+    "index.html": "/Cardtonic/index.html",
+    "main.d914cb5f.css.map": "/Cardtonic/static/css/main.d914cb5f.css.map",
+    "main.f4d1d85f.js.map": "/Cardtonic/static/js/main.f4d1d85f.js.map",
+    "787.9b68a05c.chunk.js.map": "/Cardtonic/static/js/787.9b68a05c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2398918c.css",
-    "static/js/main.63393327.js"
+    "static/css/main.d914cb5f.css",
+    "static/js/main.f4d1d85f.js"
   ]
 }
