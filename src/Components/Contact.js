@@ -65,7 +65,8 @@ height:150vh;
 display:flex;
 justify-content: center;
 align-items:center;
-
+@media (max-width:768px){
+height:auto;}
 `
 const Formbox = styled.div`
 width:60%;
@@ -273,7 +274,7 @@ background-color:#C0FAFF;
 color:#16354C;
 margin-left:3vh;
 @media (max-width:768px){
-  margin:3vh 0vh 0vh 0vh;
+  margin:3vh 0vh 4vh 0vh;
 }
 `
 const P = styled.p`
