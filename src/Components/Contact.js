@@ -76,6 +76,7 @@ height:100vh;
 }
 @media(max-width:768px){
   height:auto;
+  margin-top:10vh;
 }
 `
 const Text = styled.p`
@@ -218,6 +219,7 @@ flex-direction: column;
 background-color:#F8F8F8;
 @media (max-width:768px){
   height: auto;
+  margin-bottom:5vh;
 }
 `
 
