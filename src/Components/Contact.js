@@ -66,7 +66,9 @@ display:flex;
 justify-content: center;
 align-items:center;
 @media (max-width:768px){
-height:auto;}
+height:auto;
+margin-top: 10vh;
+}
 `
 const Formbox = styled.div`
 width:60%;
