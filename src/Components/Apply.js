@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Slide from "./Slide"
 import Footer from "./Footer"
+import p from "../images/p.svg"
 import { FaArrowRight } from "react-icons/fa";
 import { FcBusinessman, FcBusinesswoman, FcPositiveDynamic, FcAssistant, FcManager  } from "react-icons/fc";
 function Apply() {
@@ -135,7 +136,7 @@ function Apply() {
                       </L>
                    </Part>
                    <Part2>
-                <img  src={process.env.BUILD_URL + "/Images/p.svg"}/>
+                <img  src={ p}/>
                    </Part2>
               </Partners>
           </Wrap1>

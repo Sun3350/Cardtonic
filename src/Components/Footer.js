@@ -2,12 +2,13 @@ import React from 'react'
 import styled from "styled-components";
 import { IoLogoGooglePlaystore } from "react-icons/io5";
 import {GrApple} from "react-icons/gr";
+import logo from "../images/logo.svg"
 function Footer() {
   return (
     <Container>
        <TextBox>
            <First>
-               <Logo href="#" ><img src='/Images/logo.svg'/></Logo>
+               <Logo href="#" ><img src={logo}/></Logo>
                 <Tex>
                 Bridging the gap between individuals who
                  need liquid cash and businesses who need discounted gift 

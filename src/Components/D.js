@@ -3,6 +3,7 @@ import styled from "styled-components"
 import { IoLogoGooglePlaystore } from "react-icons/io5";
 import {GrApple} from "react-icons/gr";
 import { useNavigate} from "react-router-dom"
+import image2 from "../images/image-2.png"
 function D() {
   let navigate = useNavigate();
   return (
@@ -27,7 +28,7 @@ function D() {
        <Buttons><IoLogoGooglePlaystore size='2em' color="#FFFFFF" /><A><P>Download Now</P> Google Play</A></Buttons>
     <Button><GrApple size='2em'   color="#0E2F4E"/><A><P>Download Now</P>  App Store</A> </Button>
 </ButtonGroup>
-<Image><img src='/Images/image-2.png' width={'350px'} height={'250px'} /></Image>
+<Image><img src={image2} width={'350px'} height={'250px'} /></Image>
         </Second>
     </TextBox>
 </Container>

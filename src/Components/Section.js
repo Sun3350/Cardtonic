@@ -6,6 +6,7 @@ import {VscBellDot } from "react-icons/vsc";
 import { useNavigate} from "react-router-dom"
 import {IoPeople } from "react-icons/io5";
 import { IoCheckmarkCircleOutline } from "react-icons/io5";
+import y from "../images/y.png"
 function Section() {
   let navigate = useNavigate();
   return (
@@ -28,7 +29,7 @@ function Section() {
 
   </Left>
     <Right>
-      <img src="/Images/y.png" alt=""/>
+      <img src={y} />
   </Right>
   </Top>
   <Boxes>

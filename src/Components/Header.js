@@ -1,31 +1,47 @@
-import React from 'react'
+import React, {useState} from 'react'
 import styled from "styled-components";
 import { VscThreeBars } from "react-icons/vsc";
 import {Link, useNavigate} from "react-router-dom"
+import logo2 from "../images/logo2.svg"
+import { AiFillCloseCircle } from "react-icons/ai";
+import "../App.css"
 
-function Header({toggle}) {
+function Header() {
   let navigate = useNavigate();
+  const [active, setActive] = useState(false)
+
+  const showMenu = () => {
+    setActive(!active)
+  }
   return (
     <Container>
-      <a href='/'>
-        <img src={process.env.PUBLIC_URL + '/Images/logo2.svg'}/>
+      <a href=''>
+        <img onClick={() => {navigate("/")}} src= {logo2}/>
       </a>
         <Navbar>
         <Menu to="/contact" >Contact</Menu>
        <Menu to="/signin" >Sign in</Menu>
        <Butto onClick={() => {navigate("/register")}}>Register Now</Butto>
         </Navbar>
-        
-        <Bars onClick={() => {navigate("/sidebar")}}/>
-        
+        <Bars onClick={showMenu}/>
+       <nav className={active ? 'slider active' : 'slider'}>
+         <ul>
+           <div className="closed">
+             <AiFillCloseCircle className='close' onClick={showMenu}/>
+           </div>
+           <li onClick={showMenu} ><Link to="/contact">Contact</Link></li>
+           <li onClick={showMenu} ><Link to="/signin">Sign in</Link></li>
+           <li onClick={showMenu} ><Link to="/register">Register</Link></li>
+         </ul>
+       </nav>
    </Container>
   )
 }
 
-export default Header
+export default Header 
 const Container = styled.div`
 min-height:60px;
-width:100vw;
+width:100%;
 position:absolute;
 display: flex;
 padding:7vh 19vh;
@@ -38,6 +54,7 @@ top:0;
 @media (max-width:768px){
   padding:5vh 2vh 0vh 2vh;
 }
+
 `
 const Menu = styled(Link)`
 text-decoration: none;

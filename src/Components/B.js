@@ -26,42 +26,42 @@ function B({}) {
     <img
     style={{width: '100%'}}
       className="d-block w-150"
-      src="/Images/plain.jpg"
+      src={process.env.PUBLIC_URL + "/plain.jpg"}
       alt=""
     />
     <Carousel.Caption>
       <h2>Download The App</h2>
       <p>Download our mobile application or egisterbon our website to start 
         tradinggift cards easily as bosses do. </p>
-      <img style={{width: '250px'}}src="/Images/swiper-card-one-bottom.svg"/>
+      <img style={{width: '250px'}}src={process.env.PUBLIC_URL + "/swiper-card-one-bottom.svg"}/>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
     style={{width: '100%'}}
       className="d-block w-150"
-      src="/Images/plain.jpg"
+      src={process.env.PUBLIC_URL + "/plain.jpg"}
       alt=""
     />
     <Carousel.Caption>
       <h2>Login or Register</h2>
       <p>Log in and  gget familiar with the three step gift card trading 
         process that takes only a few minute to complete .</p>
-      <img style={{width: '250px'}}src="/Images/swiper-card-two-bottom.svg"/>
+      <img style={{width: '250px'}}src={process.env.PUBLIC_URL + "/swiper-card-two-bottom.svg"}/>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
     style={{width: '100%', height: '100%'}}
       className="d-block w-150"
-      src="/Images/plain.jpg"
+      src={process.env.PUBLIC_URL + "/plain.jpg"}
       alt=""
     />
     <Carousel.Caption>
       <h2>Frendly Rates  🤙</h2>
       <p>Worry not about rate, we offer the best payouts 
         for your assets based on the current average market prices.</p>
-      <img style={{width: '250px'}} src="/Images/swiper-card-three-bottom.svg"/>
+      <img style={{width: '250px'}} src={process.env.PUBLIC_URL + "/swiper-card-three-bottom.svg"}/>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item style={{width:'100%', backgroundColor:'green'}}>
@@ -71,7 +71,7 @@ function B({}) {
     <img
     style={{width: '100%'}}
       className="d-block w-150"
-      src="/Images/plain.jpg"
+      src={process.env.PUBLIC_URL + "/plain.jpg"}
       alt=""
   />
    </C>
@@ -79,7 +79,7 @@ function B({}) {
       <h3>Sinplified User Interface</h3>
       <p>Our platform is built with your best interestat heart, 
         helping you to sell gift cards using the simplest user interface .</p>
-      <img style={{width: '100px' }} src="/Images/swiper-card-four-bottom.svg"/>
+      <img style={{width: '100px' }} src={process.env.PUBLIC_URL + "/swiper-card-four-bottom.svg"}/>
     </Carousel.Caption>
 
   </Carousel.Item>
@@ -87,14 +87,14 @@ function B({}) {
     <img
     style={{width: '100%'}}
       className="d-block w-150"
-      src="/Images/plain.jpg"
+      src={process.env.PUBLIC_URL + "/plain.jpg"}
       alt=""
     />
     <Carousel.Caption>
       <h2>Quick Payment</h2>
       <p>Our payment system is amazingly coherent. You get your money almost 
         instantly, no fees attached, no limits..</p>
-      <img style={{width: '250px'}} src="/Images/swiper-card-five-bottom.svg"/>
+      <img style={{width: '250px'}} src={process.env.PUBLIC_URL + "/swiper-card-five-bottom.svg"}/>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -108,7 +108,7 @@ function B({}) {
       <h2>All We Do Is Reply</h2>
       <p>Have a question? Our FAQ page is a whole knowledge base. 
         Our support team is also available via live chat.</p>
-      <img style={{width: '250px'}} src="/Images/swiper-card-six-bottom.svg"/>
+      <img style={{width: '250px'}} src={process.env.PUBLIC_URL + "/swiper-card-six-bottom.svg"}/>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
@@ -121,7 +121,7 @@ export default B
 
 const Container = styled.div`
  width:100%;
- height:140vh;
+ height:85vh;
  background-color:#00CEDE;
  display:flex;
  flex-direction:column;
@@ -129,6 +129,7 @@ const Container = styled.div`
 margin: 0;
 @media (max-width: 768px){
  height:auto;
+ margin-top:3vh;
 }
 
 `
@@ -166,6 +167,7 @@ height:100%;
 `
 const Contain = styled.div`
 width:80vh;
+display:none;
 height:40vh;
 border-radius:20px;
 @media (max-width: 550px){

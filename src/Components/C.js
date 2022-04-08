@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from "styled-components"
 import { useNavigate} from "react-router-dom"
+import p from "../images/p.png"
 function C() {
 
   let navigate = useNavigate();
@@ -22,7 +23,7 @@ function C() {
             </Lin>
             </Second>
         </TextBox>
-         <Image> <img src='/Images/p.png'/></Image>
+         <Image> <img src={p}/></Image>
         <Button onClick={() => {navigate("/apply")}}>Apply Now</Button>
         <Lim>Limited Selection Applies</Lim>
    </Container>
@@ -156,4 +157,5 @@ cursor:pointer;`
 const Lim = styled.p`
 color: #FF0000;
 font-size: 12px;
+margin-top: 2vh;
 `

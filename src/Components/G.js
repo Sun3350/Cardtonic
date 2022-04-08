@@ -1,5 +1,12 @@
 import React from 'react'
 import styled from "styled-components"
+import azcentral from "../images/azcentral..svg"
+import punch from "../images/punch..svg"
+import digital from "../images/digital..svg"
+import vanguard from "../images/vanguard..svg"
+import match from "../images/match..svg"
+import techpoint from "../images/techpoint..svg"
+
 function G() {
   return (
       <Container>
@@ -18,12 +25,12 @@ function G() {
     </Second>
 </TextBox>
 <News>
-    <N href='#'><img src='/Images/vanguard..svg' /></N>
-    <N href='#'><img src='/Images/azcentral..svg'/></N>
-    <N href='#'><img src='/Images/punch..svg'/></N>
-    <N href='#'><img src='/Images/match..svg' /></N>
-    <N href='#'><img src='/Images/digital..svg'/></N>
-    <N href='#'><img src='/Images/techpoint..svg'/></N>
+    <N href='#'><img src={vanguard} /></N>
+    <N href='#'><img src={azcentral}/></N>
+    <N href='#'><img src={punch}/></N>
+    <N href='#'><img src={match} /></N>
+    <N href='#'><img src={digital}/></N>
+    <N href='#'><img src={techpoint}/></N>
 </News>
 <Gril>
 <Dline>
