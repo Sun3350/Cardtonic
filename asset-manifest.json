@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Cardtonic/static/css/main.d914cb5f.css",
-    "main.js": "/Cardtonic/static/js/main.f4d1d85f.js",
+    "main.css": "/Cardtonic/static/css/main.3f320e2d.css",
+    "main.js": "/Cardtonic/static/js/main.9ab80779.js",
     "static/js/787.9b68a05c.chunk.js": "/Cardtonic/static/js/787.9b68a05c.chunk.js",
     "static/media/y.png": "/Cardtonic/static/media/y.aeb00ad99070531731cc.png",
     "static/media/image-2.png": "/Cardtonic/static/media/image-2.ac75252f8da691061f8b.png",
@@ -23,12 +23,12 @@
     "static/media/amazon.svg": "/Cardtonic/static/media/amazon.0c425f6c30fcb99813d0193109873f39.svg",
     "static/media/apple.svg": "/Cardtonic/static/media/apple.dee8c64a20165b5bd347dc85ee1bb10d.svg",
     "index.html": "/Cardtonic/index.html",
-    "main.d914cb5f.css.map": "/Cardtonic/static/css/main.d914cb5f.css.map",
-    "main.f4d1d85f.js.map": "/Cardtonic/static/js/main.f4d1d85f.js.map",
+    "main.3f320e2d.css.map": "/Cardtonic/static/css/main.3f320e2d.css.map",
+    "main.9ab80779.js.map": "/Cardtonic/static/js/main.9ab80779.js.map",
     "787.9b68a05c.chunk.js.map": "/Cardtonic/static/js/787.9b68a05c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d914cb5f.css",
-    "static/js/main.f4d1d85f.js"
+    "static/css/main.3f320e2d.css",
+    "static/js/main.9ab80779.js"
   ]
 }
