@@ -320,6 +320,7 @@ width:100%;
 display:flex;
 align-items:center;
 justify-content:center;
+height:auto;
 }
 `
 const Icon = styled.div`
@@ -378,6 +379,9 @@ display:none;
 }
 img{
   width:70%;
+  @media(maX-width:600px){
+display:none;
+}
 }`
 const L = styled.div`
 margin-left:3vh;

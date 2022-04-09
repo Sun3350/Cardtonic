@@ -29,6 +29,7 @@ function Header() {
            <div className="closed">
              <AiFillCloseCircle className='close' onClick={showMenu}/>
            </div>
+           <li onClick={showMenu} ><Link to="/">Home</Link></li>
            <li onClick={showMenu} ><Link to="/contact">Contact</Link></li>
            <li onClick={showMenu} ><Link to="/signin">Sign in</Link></li>
            <li onClick={showMenu} ><Link to="/register">Register</Link></li>
